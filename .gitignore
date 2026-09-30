@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+.env
+*.log
+.coverage
+htmlcov/
+.pytest_cache/
+.postman/
+.idea/
+.vscode/
+postman/**/.resources/
+*.png
+*.jpg
+*.jpeg

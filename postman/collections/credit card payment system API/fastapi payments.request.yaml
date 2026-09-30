@@ -1,0 +1,20 @@
+$kind: http-request
+description: ""
+url: http://127.0.0.1:8001/payments
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"card_id\":\"1\",\r
+
+    \    \"amount\":\"100\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: ""
+order: 4503279223779726

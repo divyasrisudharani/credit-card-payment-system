@@ -1,0 +1,17 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/token/
+description: ""
+url: http://127.0.0.1:8000/api/token/
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"username\":\"credituser\",\r
+
+    \    \"password\":\"Sudha@143\"\r
+
+    }"
+order: 1517362595918083

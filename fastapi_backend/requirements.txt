@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+django
+djangorestframework
+djangorestframework-simplejwt
+PyMySQL
+httpx

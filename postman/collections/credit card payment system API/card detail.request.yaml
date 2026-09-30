@@ -1,0 +1,14 @@
+$kind: http-request
+description: ""
+url: http://127.0.0.1:8000/api/credit-cards/3/
+method: GET
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{}"
+auth:
+  type: bearer
+  credentials:
+    token: ""
+order: 4503455980868542

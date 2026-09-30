@@ -1,0 +1,19 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/credit-cards/
+description: ""
+url: http://127.0.0.1:8000/api/token/
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \ \"username\":\"credituser\",\r
+
+    \ \"password\":\"Sudha@143\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: ""
+order: 1790670622824
